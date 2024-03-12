@@ -2,6 +2,16 @@
 /*placeholder size */
 
 .firstimg{
-    width: 300px;
-    height: 200px;
+  img{
+    width: 1000px;
+    height: 500px;
+  }
+}
+
+.imgCard{
+    border: 2px solid black;
+
+
+    display: flex;
+    flex-direction: row;
 }
