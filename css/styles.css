@@ -1,13 +1,19 @@
 
-/*placeholder size */
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .firstimg{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   img{
     width: 1000px;
     height: 500px;
+    padding-top: 20px;
   }
   border: 3px solid black;
   margin-bottom: 200px;
@@ -17,16 +23,26 @@
 .imgCard{
     border: 3px solid black;
     
-   width: 300;
    display: flex;
    flex-direction: column;
+   width: 400px;
+   height: 500px;
 }
 
 .trioBilder{
-  display: flex
+  min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .fancy{
   display: inline-flex;
+  gap: 20px;
+  text-align: center;
 
+}
+.space{
+  padding-top: 50px;
 }
