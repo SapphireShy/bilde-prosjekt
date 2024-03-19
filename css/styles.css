@@ -56,3 +56,14 @@ align-items: center;
 .space{
   padding-top: 50px;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 4%;
+  height: 4%;
+}
